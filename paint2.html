@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Paint</title>
+    <link rel="stylesheet" href="paint2.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="paint2.js" defer></script>
+  </head>
+  <body>
+    <div id="colorButtonBox">
+      <div
+        id="colorButton"
+        class="black"
+        onclick='changeColorAndSize("black",10)'
+      ></div>
+      <div
+        id="colorButton"
+        class="red"
+        onclick="changeColorAndSize('red',10)"
+      ></div>
+      <div
+        id="colorButton"
+        class="green"
+        onclick="changeColorAndSize('green',10)"
+      ></div>
+      <div
+        id="colorButton"
+        class="blue"
+        onclick="changeColorAndSize('blue',10)"
+      ></div>
+      <div
+        id="colorButton"
+        class="yellow"
+        onclick="changeColorAndSize('yellow',10)"
+      ></div>
+      <div class="row buttons">
+        <button class="clear-canvas">Clear Canvas</button>
+        <button class="save-img">Save As Image</button>
+      </div>
+    </div>
+    <canvas id="canvas"></canvas>
+  </body>
+</html>

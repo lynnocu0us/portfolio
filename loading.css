@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --fw-bold: 700;
+    --clr-dark: #000000;
+}
+
+html{
+    background-color:#aeadff;
+    animation-name: transit;
+    animation-duration:2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function:linear; 
+    height: 100%;
+    outline: 8px solid white;
+    outline-offset: -50px;
+
+}
+/*Background animations*/
+@keyframes transit {
+    from { background-color:#a4a2ff;}
+    to { background-color: #ecc8fd;}
+}
+
+
+
+body {
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: var(--fw-bold);
+    line-height: 1.5;
+    color: var(--clr-dark);
+}
+
+
+.nav-items::-webkit-scrollbar {
+    display: none;
+}
+
+.content{
+position: relative;
+margin: auto;
+top: max(30vh, 235px);
+width: 406px;
+}
+.text{
+  font-size: 2em;
+}
+
+.progress-container {
+  margin: 0;
+  padding: 0;
+  height: 60px;
+  width: 400px;
+  background: #fff;
+  outline: 6px solid black;
+}
+
+.progress{
+  margin: 0;
+  padding: 0;
+}
+.progress-container .progress {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 0;
+  background: #000;
+  transition: width 0.4s ease;
+}
+.percent-text{
+  margin: 0;
+  padding: 0;
+  padding-top: 1em;
+  font-size: 2em;
+
+}
+
+
+
