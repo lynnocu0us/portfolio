@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial scale=1" />
     <!-- Change title later-->
     <title>Samantha Norris</title>
-    <link rel="stylesheet" href="connect.css" />
+    <link rel="stylesheet" href="/portfolio_site/connect.css" />
   </head>
     <body>
 <div id="overLay" aria-hidden="true" style="display: none">
@@ -24,7 +24,7 @@
             <nav>
               <div class="nav-content">
               <ul class="nav-items">
-                <li><a href="Home.html">Home</a><br /></li>
+                <li><a href="home.html">Home</a><br /></li>
                 <li><a href="About.html">About</a> <br /></li>
                 <li><a href="uiux.html">UI/UX</a> <br /></li>
                 <li><a href="projects.html">Projects</a><br /></li>
@@ -37,22 +37,32 @@
           <div class="border">
           <div class="content">
           <div class="form-content">
-            <form class="email">
+            <form id="googform" name="googform" target="hidden_iframe"action="https://docs.google.com/forms/d/e/1FAIpQLSddny0_Dl_edkbYgkgENlMyEdIMRrRRnlTNYtLVaTwds4virA/formResponse"
+            method="post">
+            <div class="email">
                 <label for="email">E-mail</label>
-                <input type="email" id="email" name="email" size="31">
-            </form>
-            <div class="feed-back">
-            <form class="thoughts-form">
+                <input type="email" id="email" name="entry.1352498971">
+            </div>
+            <div class="name">
+              <label for="name">Name</label>
+              <input type="name" id="name" name="entry.1150456259">
+            </div>
+            <div class="thoughts-form">
               <label for="thoughts">What's on your mind?</label>
-              <textarea></textarea>
+              <textarea name="entry.1664496207" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="button-submit">
+              <button type="submit" value="submit" onclick="openNav()">Submit</button>
             </div>
             </form>
-            <div class="button-submit">
-              <span onclick="openNav()">Submit</span>
-            </div>
           </div>
           </div>
         </div>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;" onload="if(submitted=true){}"></iframe>
+          <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript"> var submitted = false;</script>
           <footer>
             <div>
               <nav>
@@ -67,10 +77,10 @@
              <div>
                <nav>
                  <ul class="img-socials">
-                   <a href="https://www.linkedin.com/in/samantha-norris-925204117/"><img class="svg-img" src="images/linked_in.svg" alt="Linkedin"></a>
-                   <a href="https://www.instagram.com/lynnocuous/"><img class="svg-img" src="images/Instagramsvg.svg" alt="Instagram"></a>
-                   <a href="https://github.com/Lynncognito"><img class="svg-img" src="images/Github.svg" alt="Github"></a>
-                   <a href="https://twitter.com/lynnocuous"><img class="svg-img" src="images/Twittersvg.svg" alt="Twitter"></a>
+                   <a href="https://www.linkedin.com/in/samantha-norris-925204117/"><img class="svg-img" src="/portfolio_site/images/linked_in.svg" alt="Linkedin"></a>
+                   <a href="https://www.instagram.com/lynnocuous/"><img class="svg-img" src="/portfolio_site/images/Instagramsvg.svg" alt="Instagram"></a>
+                   <a href="https://github.com/Lynncognito"><img class="svg-img" src="/portfolio_site/images/Github.svg" alt="Github"></a>
+                   <a href="https://twitter.com/lynnocuous"><img class="svg-img" src="/portfolio_site/images/Twittersvg.svg" alt="Twitter"></a>
                 </ul>
                </nav>
               </div>
