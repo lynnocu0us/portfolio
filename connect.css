@@ -33,11 +33,6 @@ body {
     to { background-color: #F1D3FF;}
 }
 
-
-
-
-
-
 @media screen and (max-width: 768px){
 .overlay-background{
     position: fixed;
