@@ -198,7 +198,7 @@ body{
 
 .form-content{
     position: relative;
-    top:180px;
+    top:170px;
     left: 3%;
 }
 
@@ -278,13 +278,14 @@ button{
 
 .img-socials{
     position: relative;
-    top: max(45vh, 380px);
+    padding: 0 1.75em 2em 1.75em;
+    top: max(35vh, 280px);
+    right:1em;
 
 }
-
 .svg-img{
-    margin: 0 4% 0 4%;
-    width:max(10%, 35px);
+    margin: 0 0 0 8%;
+    width: 12%;
 
 }
 
