@@ -5,22 +5,10 @@
     <meta name="viewport" content="width=device-width, initial scale=1" />
     <!-- Change title later-->
     <title>Samantha Norris</title>
-    <link rel="stylesheet" href="connect.css" />
-    <link rel="shorcut icon" type="image/png" href="/portfolio_site/images/favicon.ico">
+    <link rel="stylesheet" href="/portfolio_site/test.css" />
   </head>
     <body>
-<div id="overLay" aria-hidden="true" style="display: none">
-        <div class="overlay-background">
-      <div class="overlay-content">
-          <div class="text">
-            <p>Message sent!</p>
-          </div>
-          <div class="button-content">
-            <a href="javascript:void(0)" class="connect" onclick="closeNav()">Back</a>
-          </div>
-        </div>
-        </div>
-      </div>
+
           <header>
             <nav>
               <div class="nav-content">
@@ -38,22 +26,22 @@
           <div class="border">
           <div class="content">
           <div class="form-content">
-            <form id="googform" name="googform" target="hidden_iframe"action="https://docs.google.com/forms/d/e/1FAIpQLSddny0_Dl_edkbYgkgENlMyEdIMRrRRnlTNYtLVaTwds4virA/formResponse"
-            method="post" onsubmit="openNav()">
+            <form id="googform" name="googform" target="hidden_iframe" action="https://docs.google.com/forms/d/e/1FAIpQLSddny0_Dl_edkbYgkgENlMyEdIMRrRRnlTNYtLVaTwds4virA/formResponse"
+            method="post" onsubmit="return validateForm()">
             <div class="email">
                 <label for="email">E-mail</label>
-                <input type="email" id="email" name="entry.1352498971" required>
+                <input type="email" id="field" name="entry.1352498971" required>
             </div>
             <div class="name">
               <label for="name">Name</label>
-              <input type="name" id="name" name="entry.1150456259" required>
+              <input type="name" id="field" name="entry.1150456259" required>
             </div>
             <div class="thoughts-form">
               <label for="thoughts">What's on your mind?</label>
-              <textarea name="entry.1664496207" id="" cols="30" rows="10" required></textarea>
+              <textarea name="entry.1664496207" id="field" cols="30" rows="10" required></textarea>
             </div>
             <div class="button-submit">
-              <button type="submit" value="submit">Submit</button>
+              <button type="submit" value="submit" action="submit.html">Submit</button>
             </div>
             </form>
           </div>
@@ -87,7 +75,7 @@
               </div>
           </footer>
           <img class="bg-img" src="images/backround_design.svg" />
-        <script src="connect.js"></script>
+        <script src="/portfolio_site/test.js"></script>
       </section>
       </div>
       </div>

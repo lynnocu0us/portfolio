@@ -7,6 +7,8 @@ function closeNav() {
   document.getElementById("overLay").style.display = "none";
 }
 
+
+
 var body = document.body,
   overlay = document.querySelector('.overlay-background'),
   overlayBtts = document.querySelectorAll('overLay');

@@ -198,7 +198,7 @@ body{
 
 .form-content{
     position: relative;
-    top:170px;
+    top:250px;
     left: 3%;
 }
 
@@ -278,14 +278,13 @@ button{
 
 .img-socials{
     position: relative;
-    padding: 0 1.75em 2em 1.75em;
-    top: max(35vh, 280px);
-    right:1em;
+    top: max(45vh, 380px);
 
 }
+
 .svg-img{
-    margin: 0 0 0 8%;
-    width: 12%;
+    margin: 0 4% 0 4%;
+    width:max(10%, 35px);
 
 }
 
@@ -828,7 +827,7 @@ li:hover {
 
 .form-content{
     position: relative;
-    top:140px;
+    top:160px;
 }
 
 .email{
@@ -933,9 +932,9 @@ button{
     width:82%;
 }
 .socials{
-    position: relative;
+    position: absolute;
     font-size: 1.6em;
-    top:; 
+    bottom: 6%;
     left: 6%;
     font-weight: bold;
 }
