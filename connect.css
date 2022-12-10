@@ -938,6 +938,7 @@ button{
     top:; 
     left: 6%;
     font-weight: bold;
+    width: 40em;
 }
 
 .socials a{
