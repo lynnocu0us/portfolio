@@ -220,7 +220,7 @@ html{
         position:absolute;
         list-style:none;
         font-size: max(25px,1.55vmax);
-        top: 27%;
+        top: 24%;
         left: 70%;
         
     }
@@ -253,7 +253,7 @@ html{
     
     .sam{
         width: min(45%, 600px);
-        margin:12em 0 0 13%;
+        margin:10em 0 0 13%;
     }
     .hero-container{
         width:38vmax;
