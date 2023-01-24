@@ -5,46 +5,117 @@
     <meta name="viewport" content="width=device-width, initial scale=1" />
     <!-- Change title later-->
     <title>header</title>
-    <link rel="stylesheet" href="art.css" />
-    <link rel="shorcut icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="/portfolio_site/art.css" />
+    <link rel="shorcut icon" type="image/png" href="/portfolio_site/images/favicon.ico">
   </head>
-    <body>
-          <header>
-            <nav>
-              <div class="nav-content">
-              <ul class="nav-items">
-                <li><a href="home.html">Home</a><br /></li>
-                <li><a href="About.html">About</a> <br /></li>
-                <li><a href="uiux.html">UI/UX</a> <br /></li>
-                <li><a href="projects.html">Projects</a><br /></li>
-                <li><a class="active" href="Art.html">Art work</a><br /></li>
-                <li><a href="connect.html">Connect</a> <br /></li>
-              </ul>
+      <header>
+        <nav>
+          <div class="nav-content">
+          <ul class="nav-items">
+            <li><a href="home.html">Home</a><br /></li>
+            <li><a href="About.html">About</a> <br /></li>
+            <li><a href="uiux.html">UI/UX</a> <br /></li>
+            <li><a href="https://drive.google.com/file/d/1OyUtdj-Lc39FQQJwNKbBcA6sBiyDDJT0/view?usp=sharing">Resume</a><br /></li>
+            <li><a class="active" href="Art.html">Art work</a><br /></li>
+            <li><a href="connect.html">Connect</a> <br /></li>
+          </ul>
+        </div>
+        </nav>
+      </header>
+      <body onload="getPics()">
+        <div class="wrapper">
+            <div class="gallery">
+                <div class="gallery__item gallery__item--1">
+                    <a href="#" class="gallery__link">
+                        <img src="/portfolio_site/images/avatar18_r.png" class="gallery__image" />
+                        <div class="gallery__overlay">
+                            <span>Self Portrait</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery__item gallery__item--2">
+                    <a href="#" class="gallery__link">
+                        <img src="/portfolio_site/images/angel_r.png" class="gallery__image" />
+                        <div class="gallery__overlay">
+                            <span>Angel</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="gallery__item gallery__item--3">
+                    <a href="#" class="gallery__link">
+                        <img src="/portfolio_site/images/cow_grl_r.png" class="gallery__image" />
+                        <div class="gallery__overlay">
+                            <span>High Horse</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery__item gallery__item--4">
+                    <a href="#" class="gallery__link">
+                        <img src="/portfolio_site/images/Vaquero_r.png" class="gallery__image" />
+                        <div class="gallery__overlay">
+                            <span>Boku no Western</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery__item gallery__item--5">
+                    <a href="#" class="gallery__link">
+                      <img src="/portfolio_site/images/rest_r.png" class="gallery__image" />
+                        <div class="gallery__overlay">
+                            <span>Solitude</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery__item gallery__item--6">
+                    <a href="#" class="gallery__link">
+                        <img src="/portfolio_site/images/doge_r.png" class="gallery__image" />
+                        <div class="gallery__overlay">
+                            <span>CFME</span>
+                        </div>
+                      </a>
+                </div>
+                <div class="gallery__item gallery__item--7">
+                  <a href="#" class="gallery__link">
+                      <img src="/portfolio_site/images/kkflowerboy_r.jpg" class="gallery__image" />
+                      <div class="gallery__overlay">
+                          <span>K.K. Flower Boy</span>
+                      </div>
+                  </a>
+              </div>
+              <div class="gallery__item gallery__item--8">
+                <a href="#" class="gallery__link">
+                    <img src="/portfolio_site/images/cfme.png" class="gallery__image" />
+                    <div class="gallery__overlay">
+                        <span>M.O.E.</span>
+                    </div>
+                </a>
             </div>
-            </nav>
-          </header>
-          <div class="container">
-          <section>
-            <div class="background">
             </div>
-          </section>
+            <div id="fullpage" onclick="this.style.display='none';"></div>
+            </div>
+        </div>
+        <div class="divider"></div>
+    </body>
           </div>
           <footer>
             <div class="social-box">
                 <ul class="socials">
                    <a href="https://www.linkedin.com/in/samantha-norris-925204117/" target="_blank">LinkedIn</a>
-                   <a href="https://www.instagram.com/lynnocuous/" target="_blank">Instagram</a>
+                   <a href="https://www.figma.com/@lynnocuous" target="_blank">Figma</a>
                    <a href="https://github.com/Lynncognito" target="_blank">Github</a>
-                   <a href="https://twitter.com/lynnocuous" target="blank">Twitter</a>
+                   <a href="https://www.behance.net/samanthanorris" target="blank">Behance</a>
                 </ul>
+              </div>
              </div>
-             <div>
+              <div class ="soc-container">
                  <ul class="img-socials">
-                    <a href="https://www.linkedin.com/in/samantha-norris-925204117/"><img class="svg-img" src="images/linked_in.svg" alt="Linkedin"></a>
-                    <a href="https://www.instagram.com/lynnocuous/"><img class="svg-img" src="images/Instagramsvg.svg" alt="Instagram"></a>
-                    <a href="https://github.com/Lynncognito"><img class="svg-img" src="images/Github.svg" alt="Github"></a>
-                    <a href="https://twitter.com/lynnocuous"><img class="svg-img" src="images/Twittersvg.svg" alt="Twitter"></a>
+                    <a href="https://www.linkedin.com/in/samantha-norris-925204117/"><img class="svg-img" src="/portfolio_site/images/linked_in.svg" alt="Linkedin"></a>
+                    <a href="https://www.figma.com/@lynnocuous"><img class="svg-img" src="/portfolio_site/images/Figma.svg" alt="figma"></a>
+                    <a href="https://github.com/Lynncognito"><img class="svg-img" src="/portfolio_site/images/Github.svg" alt="Github"></a>
+                    <a href="https://www.behance.net/samanthanorris"><img class="svg-img" src="/portfolio_site/images/Behance.svg" alt="Behance"></a>
                  </ul>
+                 </div>
+                </div>
               </div>
            </footer>
         <script src="art.js"></script>
