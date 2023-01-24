@@ -40,7 +40,7 @@ body {
   background-color:rgba(0, 0, 0, .5);
 }
 
-@media screen and (max-width: 814px) {
+@media screen and (max-width: 1054px) {
 .content{
     max-width: 80vmax;
     margin: auto;
@@ -108,7 +108,7 @@ body {
 
 
 
-@media screen and (min-width:815px){
+@media screen and (min-width:1055px){
 .content{
     max-width: 1100px;
     margin: auto;
