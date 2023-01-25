@@ -126,7 +126,7 @@ html{
     color: white;
     display:flex;
     text-align: center;
-    padding: 1.4vmax 4vmax;
+    padding: 1.4vmax 4.3vmax;
     text-decoration: none;
     box-shadow: rgba(62, 40, 85, 0.94) 14px 0 14px;
     }
@@ -258,14 +258,14 @@ html{
         width:38vmax;
         padding: 1.6vmax;
         margin: 0 5% 0 17%;
-        font-size: max(25px,1.5vmax);
+        font-size: max(25px,1.55vmax);
         text-align: left;
     }
 
 
     .socials{
-        position: relative;
-        margin: 7.6em 0 0 3em;
+        position: absolute;
+        margin: 6.5em 0 0 3em;
         font-size:max(25px, 1.75vmax);
         left:2%;
         width:70vw;
@@ -290,3 +290,18 @@ html{
                 width:72%;
             }
         }
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+    background: #000000;
+    outline: solid 3px black;
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background: #fff; 
+    }

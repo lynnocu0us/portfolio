@@ -207,3 +207,19 @@ section{
   color:white;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+  background: #000000;
+  outline: solid 3px black;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+  background: #fff; 
+  }
+

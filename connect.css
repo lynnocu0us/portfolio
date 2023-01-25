@@ -71,7 +71,7 @@ body {
         color: white;
         display:flex;
         text-align: center;
-        padding: .75em 1.55em;
+        padding: .75em 1.65em;
         text-decoration: none;
         box-shadow: rgba(62, 40, 85, 0.94) 14px 0 14px;
         }
@@ -367,15 +367,15 @@ body {
                 width:72%;
             }
             .socials{
-
-                font-size: 1.6em;;
-                font-weight: bold;
-                width: 40em;
+                position: absolute;
+                margin: 0.5em 0 0 1.5em;
+                font-size:max(25px, 1.75vmax);
+                left:2%;
+                width:70vw;
             }
-            
             .socials a{
                 color: #000;
-                padding: 1em;
+                padding: .8em;
             }
             
             .socials a:hover {
@@ -398,3 +398,19 @@ body {
                     width:72%;
                 }
             }
+
+            /* width */
+::-webkit-scrollbar {
+    width: 12px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+    background: #000000;
+    outline: solid 3px black;
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background: #fff; 
+    }

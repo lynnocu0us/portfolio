@@ -40,6 +40,21 @@ body {
   background-color:rgba(0, 0, 0, .5);
 }
 
+
+::-webkit-scrollbar {
+    width: 12px;
+    }
+
+ ::-webkit-scrollbar-track {
+    background: #000000;
+    outline: solid 3px black;
+    }
+    
+
+::-webkit-scrollbar-thumb {
+    background: #fff; 
+    }
+
 @media screen and (max-width: 1054px) {
 .content{
     max-width: 80vmax;
@@ -70,7 +85,7 @@ body {
     color: white;
     display:flex;
     text-align: center;
-    padding: .75em 1.65em;
+    padding: .75em 1.55em;
     text-decoration: none;
     box-shadow: rgba(62, 40, 85, 0.94) 14px 0 14px;
     }
@@ -164,7 +179,7 @@ li:hover {
 
 .socials{
     position: relative;
-    padding-top: 5%;
+    padding-top: 2%;
     font-size: 2em;
     text-align: center;
 }
@@ -189,22 +204,6 @@ li:hover {
 .img-socials {
     display: none;
 }
-
-/* width */
-::-webkit-scrollbar {
-    width: 12px;
-    }
-    
-    /* Track */
-    ::-webkit-scrollbar-track {
-    background: #000000;
-    outline: solid 3px black;
-    }
-    
-    /* Handle */
-    ::-webkit-scrollbar-thumb {
-    background: #fff; 
-    }
 }
 
 .wrapper {
@@ -415,7 +414,7 @@ li:hover {
     background-color: #000000;
     margin-left:auto;
     margin-right:auto;
-    margin-top: 5%;
+    margin-top: 2%;
     width:90%;
     height:.15rem;
     border-radius: 10px;

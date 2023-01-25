@@ -25,6 +25,22 @@ body {
     display: none;
     }
 
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+    background: #000000;
+    outline: solid 3px black;
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background: #fff; 
+    }
+
 @media screen and (max-width: 1054px) {
 .content{
     max-width: 80vmax;
@@ -55,7 +71,7 @@ body {
     color: white;
     display:flex;
     text-align: center;
-    padding: .75em 1.55em;
+    padding: .75em 1.65em;
     text-decoration: none;
     box-shadow: rgba(62, 40, 85, 0.94) 14px 0 14px;
     }
@@ -83,7 +99,7 @@ body {
     width: min(300px, 70%);
     outline: solid min(9px,1.2vmin) white;
     outline-offset: 2.5vmin;
-    cursor: url("images/cursor.svg"), crosshair;
+    cursor: url("/portfolio_site/images/cursor.svg"), crosshair;
 }
 
 
@@ -98,24 +114,15 @@ body {
     }
 
 .summary {
-    margin: 0;
     padding: 0 10% 0 10%;
     font-size:2.2vmax;
     text-align: center;
-
-    }
-
-.current {
-    position: relative;
-    margin: 0px;
-    padding: 0 7% 0 10%;
-    font-size: 2.2vmax;
-    text-align: center;
+    margin-bottom: 40px;
     }
 
 .wrap-up {
     position: relative;
-    margin: 0px;
+    margin-top: 45px;
     padding: 0 10% 0 10%;
     font-size: 2.2vmax;
     text-align: center;
@@ -226,7 +233,7 @@ li:hover {
     float: left;
     width: 360px;
     height: 1080px;
-    cursor: url("images/cursor.svg"), crosshair;
+    cursor: url("/portfolio_site/images/cursor.svg"), crosshair;
 }
 
 .avatar {
@@ -237,8 +244,9 @@ li:hover {
     top: 18%;
     z-index: -1;
     
-
+    
 }
+
 
 
 .bg-img {
@@ -255,6 +263,7 @@ li:hover {
     padding: 12% 5% 5% 5%;
     font-size: 1.5em;
     text-align: left;
+    
 }
 .current {
     position: relative;
@@ -266,8 +275,7 @@ li:hover {
 
 .wrap-up {
     position: relative;
-    margin-top:0%;
-    padding: 5% 10% 0 10%;
+    padding: 2% 10% 0 10%;
     font-size: 1.5em;
     text-align: center;
 }
@@ -275,7 +283,7 @@ li:hover {
     background-color: #000000;
     margin-left:auto;
     margin-right:auto;
-    margin-top: 10%;
+    margin-top: 5%;
     width:90%;
     height:.15rem;
     border-radius: 10px;
@@ -283,7 +291,7 @@ li:hover {
 
 .socials{
     position: relative;
-    padding-top: 5%;
+    padding-top: 2%;
     font-size: 2em;
     text-align: center;
 }
@@ -292,23 +300,14 @@ li:hover {
     padding:.7em
 }
 
+.socials a:hover {
+    background-color: #000;
+    color:white;
+}
+
 .img-socials {
     display: none;
 }
-
-/* width */
-::-webkit-scrollbar {
-    width: 12px;
-    }
-    
-    /* Track */
-    ::-webkit-scrollbar-track {
-    background: #000000;
-    outline: solid 3px black;
-    }
-    
-    /* Handle */
-    ::-webkit-scrollbar-thumb {
-    background: #fff; 
-    }
 }
+
+
