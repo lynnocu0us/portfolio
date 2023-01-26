@@ -49,7 +49,7 @@ body {
         animation-timing-function:linear; 
         height: 100%;
         width: 100%;
-        outline: 8px solid white;
+        outline: .9vmax solid white;
         outline-offset: -50px;
     }
     /*Background animations*/
@@ -59,19 +59,21 @@ body {
     }
 
     .overlay-content{
-        margin: 45vh auto 0;
+        margin: 40vh auto 0;
         width: 50%;
         text-align: center;
-        font-size: 1.6em;
+        font-size: min(2.3vmax,27px);
+        font-style: var(--fw-bold);
     }
-
+.text p{
+    margin-bottom: 40px;
+}
 .button-content a{
     padding: .6em;
     background-color: #000;
     color:#fff;
     outline: solid 4px white;
     outline-offset:  5px;
-    margin-top: 30px;
     text-decoration: none; 
     
 }
@@ -92,12 +94,11 @@ body {
         margin: auto;
     }
     
-    /*I know that looks wild but trust me lol*/
+  
     .nav-content{
         width: 100%; 
         }
     
-    /*I know that looks wild but trust me lol*/
     .nav-items {
         margin:0;
         padding: 0;
@@ -422,6 +423,7 @@ body {
             .socials a{
                 color: #000;
                 padding: .8em;
+                text-decoration: none; 
             }
             
             .socials a:hover {
