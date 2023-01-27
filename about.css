@@ -99,7 +99,7 @@ body {
     width: min(300px, 70%);
     outline: solid min(9px,1.2vmin) white;
     outline-offset: 2.5vmin;
-    cursor: url("/portfolio_site/images/cursor.svg"), crosshair;
+    cursor: url("images/cursor.svg"), crosshair;
 }
 
 
