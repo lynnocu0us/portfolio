@@ -233,7 +233,7 @@ li:hover {
     float: left;
     width: 360px;
     height: 1080px;
-    cursor: url("/portfolio_site/images/cursor.svg"), crosshair;
+    cursor: url("images/cursor.svg"), crosshair;
 }
 
 .avatar {
