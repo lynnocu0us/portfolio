@@ -1,4 +1,4 @@
-function getPics() {} //just for this demo
+function getPics() {} 
 const imgs = document.querySelectorAll('.gallery img');
 const fullPage = document.querySelector('#fullpage');
 
