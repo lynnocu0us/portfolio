@@ -25,18 +25,17 @@ body {
     display: none;
     }
 
-/* width */
+
 ::-webkit-scrollbar {
     width: 12px;
     }
     
-    /* Track */
+
     ::-webkit-scrollbar-track {
     background: #000000;
     outline: solid 3px black;
     }
-    
-    /* Handle */
+
     ::-webkit-scrollbar-thumb {
     background: #fff; 
     }
@@ -51,7 +50,7 @@ body {
     width: 100%; 
     }
 
-/*I know that looks wild but trust me lol*/
+
 .nav-items {
     margin:0;
     padding: 0;
@@ -99,23 +98,11 @@ body {
     width: min(300px, 70%);
     outline: solid min(9px,1.2vmin) white;
     outline-offset: 2.5vmin;
-    cursor: url("images/cursor.svg"), crosshair;
+    cursor: url("/portfolio_site/images/cursor.svg"), crosshair;
     animation-name: transitionIn;
     animation-duration:1.5s;
 }
 
-@keyframes transitionIn {
-    from{
-       opacity: 0;
-       transform: translateY(-20px);
-    }
-    to{
-       opacity: 1;
-       transform: translateY(0px);
-    }
-   
-   }
-    
 .bg-img{
     opacity: .65;
     position: absolute;
@@ -246,8 +233,9 @@ li:hover {
     float: left;
     width: 360px;
     height: 1080px;
-    cursor: url("images/cursor.svg"), crosshair;
+    cursor: url("/portfolio_site/images/cursor.svg"), crosshair;
 }
+
 
 .avatar {
     position: sticky;
@@ -263,7 +251,7 @@ li:hover {
 @keyframes transitionIn {
     from{
        opacity: 0;
-       transform: translateY(100px);
+       transform: translateY(-100px);
     }
     to{
        opacity: 1;
