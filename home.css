@@ -170,21 +170,22 @@ html{
 .soc-container{
     max-width: 80vmax;
     margin: auto;
-    margin-top: 8vmax;
+    padding-top: 10px;
     }
 
 .img-socials{
     max-width: 80vmax;
     margin: auto;
     padding-top: 10px;
-    padding-left:13%;
+    padding-left:5%;
 
     }
 
 .svg-img{
     margin: 0 6%;
-    width:9%;
+    width:10%;
     }
+
 }
 
 @media screen  and (min-width:600px){
