@@ -243,17 +243,11 @@ html{
         color:white;
         padding: 1.2vmax;
     }
-    .paint a{
-        position:absolute;
-        padding: 4% 20%;
-        margin:16em 0 0 13em;
-        z-index: 3;
-        cursor: url("images/pencil.svg"), crosshair;
-    }
     
     .sam{
         width: min(45%, 600px);
         margin:7.5% 0 0 13%;
+	cursor: url("images/pencil.svg"), crosshair;
     }
     .hero-container{
         width:38vmax;
