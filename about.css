@@ -232,7 +232,7 @@ li:hover {
     margin: 6em 4em 0 6em;
     float: left;
     width: 360px;
-    height: 1080px;
+    height: 1190px;
     cursor: url("/portfolio_site/images/cursor.svg"), crosshair;
 }
 
@@ -274,7 +274,7 @@ li:hover {
 .summary {
     margin: 0px;
     padding: 12% 5% 5% 5%;
-    font-size: 1.44em;
+    font-size: 1.5em;
     text-align: left;
     
 }
