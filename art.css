@@ -175,6 +175,11 @@ li:hover {
     font-weight: 900;
 }
 
+.nav-items li :hover {
+    text-decoration: underline;  
+    font-weight: 900;
+}
+
 
 .socials{
     position: relative;

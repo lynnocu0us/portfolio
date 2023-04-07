@@ -221,7 +221,7 @@ body {
     height: 2.65em;
     text-decoration:underline;
 }
-li:hover {
+.nav-items li :hover {
     text-decoration: underline;  
     font-weight: 900;
 }
