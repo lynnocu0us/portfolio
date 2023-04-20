@@ -224,7 +224,7 @@ body {
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 12.5rem);
+    grid-template-rows: repeat(6, 12.5rem);
     gap: 2rem;
     margin-top: 70px;
 }
@@ -258,6 +258,24 @@ body {
     animation-duration:3.2s;
 }
 
+.gallery__item--5 {
+    grid-column: 1 / span 3;
+    grid-row: 5 / span 1;
+    animation-name: transitionIn;
+    animation-duration:3.2s;
+}
+.gallery__item--6 {
+    grid-column: 1 / span 3;
+    grid-row: 6 / span 1;
+    animation-name: transitionIn;
+    animation-duration:3.2s;
+}
+.gallery__item--7 {
+    grid-column: 1 / span 3;
+    grid-row: 7 / span 1;
+    animation-name: transitionIn;
+    animation-duration:3.2s;
+}
 
 /* Gallery Link */
 .gallery__link {
@@ -346,12 +364,6 @@ body {
 }
 
 @media screen and (max-width: 60rem) {
-    .gallery {
-        display: grid;
-        grid-template-columns: repeat(3, 2fr);
-        grid-template-rows: repeat(4, 1.5rem);
-        gap: 0rem;
-    }
 /* Gallery Link */
 .gallery__link {
     position: relative;
@@ -386,30 +398,41 @@ body {
     .gallery {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(4, 12.5rem);
+        grid-template-rows: repeat(5, 12.5rem);
         gap: .5rem;
         margin-top: 70px;
     }
 
     /* Gallery Layout */
     .gallery__item--1 {
-        grid-column: 1 / span 1;
+        grid-column: 1 / span 2;
         grid-row: 1 / span 1;
     }
 
     .gallery__item--2 {
-        grid-column: 1 / span 1;
+        grid-column: 1 / span 2;
         grid-row: 2 / span 1;
     }
 
     .gallery__item--3 {
-        grid-column: 1 / span 1;
+        grid-column: 1 / span 2;
         grid-row: 3 / span 1;
     }
 
     .gallery__item--4 {
-        grid-column: 1 / span 1;
+        grid-column: 1 / span 2;
         grid-row: 4 / span 1;
+    }
+
+    .gallery__item--5 {
+        display: none;
+        grid-column: 1 / span 2;
+        grid-row: 5 / span 1;
+    }
+
+    .gallery__item--6 {
+        grid-column: 1 / span 2;
+        grid-row: 5 / span 1;
     }
 
 }
