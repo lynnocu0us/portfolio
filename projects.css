@@ -268,13 +268,13 @@ body {
     grid-column: 1 / span 3;
     grid-row: 6 / span 1;
     animation-name: transitionIn;
-    animation-duration:3.2s;
+    animation-duration:3.6s;
 }
 .gallery__item--7 {
     grid-column: 1 / span 3;
     grid-row: 7 / span 1;
     animation-name: transitionIn;
-    animation-duration:3.2s;
+    animation-duration:3.7s;
 }
 
 /* Gallery Link */
@@ -440,6 +440,10 @@ body {
         grid-row: 5 / span 1;
     }
 
+    .gallery__item--7 {
+        grid-column: 1 / span 2;
+        grid-row: 6 / span 1;
+    }
 
 
 }
@@ -554,6 +558,11 @@ body {
     .gallery__item--6 {
         grid-column: 1 / span 2;
         grid-row: 5 / span 1;
+    }
+
+    .gallery__item--7 {
+        grid-column: 1 / span 2;
+        grid-row: 6 / span 1;
     }
 
 
