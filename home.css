@@ -99,10 +99,12 @@ body{
         
 
 @media screen and (max-width: 1054px) {
+.content a{
+    pointer-events: none;
+}
 html{
     outline: none;
     }
-
 
 .socials{
     display: none;
@@ -185,6 +187,7 @@ html{
     margin: 20px 6%;
     width:10%;
     }
+
 
 }
 
